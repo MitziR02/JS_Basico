@@ -1,0 +1,14 @@
+.titulo{
+    font-size: 8rem;
+    margin-bottom: 2rem;
+}
+
+.info{
+    width: 60%;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.parrafo{
+    margin-bottom: 1rem;
+}

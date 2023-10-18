@@ -1,0 +1,25 @@
+:root{
+    --darkGreen: #3d7b80;
+    --green: #77b1a9;
+    --lightGreen: #b1e6d1;
+    --vinoOscuro: #270a33;
+    --vino: #451a3e;
+}
+
+body{
+    background: linear-gradient(0deg, rgba(177,230,209,1) 0%, rgba(119,177,169,1) 52%, rgba(61,123,128,1) 100%);
+
+    font-family: 'Quicksand', sans-serif;
+    color: var(--vino);
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

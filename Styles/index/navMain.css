@@ -1,0 +1,40 @@
+.navPrincipal{
+    width: 70%;
+    margin-top: 2rem;
+}
+.menuLista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menuItem{
+    background: var(--vino);
+
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+
+    margin-right: 3rem;
+    margin-top: 1rem;
+    padding: .2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.menuItem:hover{
+    background: var(--vinoOscuro);
+
+    height: 48px;
+    width: 240px;
+
+    transition: .5s;
+
+    font-size: 1.2rem;
+}

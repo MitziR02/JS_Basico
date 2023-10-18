@@ -1,0 +1,23 @@
+.calcu2{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.btnCal2{
+    margin-right: 1rem;
+    width: 100px;
+    height: 28px;
+
+    border-radius: 10px;
+    border: 0;
+    
+    background: var(--vino);
+    color: white;
+}
+.btnCal2:hover{
+    width: 120px;
+    height: 32px;
+    transition: 0.5s;
+    background: var(--vinoOscuro);
+    cursor: pointer;
+}
