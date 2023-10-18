@@ -41,17 +41,19 @@
 
         <section class="stringReverso">
             <div class="contenedor">
-                <input type="text" name="" id="inputTexto" placeholder="Ingrese Texto Aquí">
-                <button class="btn">Submit</button>
+                <textarea id="inputTexto" placeholder="Ingrese Texto Aquí"></textarea>
+                <button class="btn" onclick="stringReverso()">Submit</button>
             </div>
 
             <div class="contenedor">
-                <p class="textoResultado"></p>
-                <button class="btn">Copiar</button>
+                <p class="textoResultado" id="resultado"></p>
+                <button class="btn" onclick="copiarTexto()">Copiar</button>
             </div>
 
         </section>
 
     </main>
+
+    <script src="./JS/stringR.js"></script>
 </body>
 </html>
