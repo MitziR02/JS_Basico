@@ -31,9 +31,7 @@
 .menuItem:hover{
     background: var(--vinoOscuro);
 
-    height: 48px;
-    width: 240px;
-
+    transform: scale(1.1);
     transition: .5s;
 
     font-size: 1.2rem;

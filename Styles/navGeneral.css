@@ -14,12 +14,13 @@
   font-size: 1.7rem;
 }
 .navTit:hover{
-  font-size: 2rem;
+  transform: scale(1.1);
   color: var(--vinoOscuro);
   transition: 0.5s;
 }
 .material-symbols-outlined {
   color: var(--vino);
+  margin: 0 1rem;
   font-size: 3rem;
   font-variation-settings:
   'FILL' 0,
@@ -28,7 +29,7 @@
   'opsz' 24
 }
 .material-symbols-outlined:hover{
-  font-size: 4rem;
+  transform: scale(1.1);
   color: var(--vinoOscuro);
   transition: 0.5s;
 }

@@ -1,0 +1,81 @@
+/*------------ whatIsMCD Section ------------*/
+
+.whatIsMCD{
+    margin: 2rem 0 10rem;
+}
+
+.mcdQuestion{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.mcdExplain{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+/*------------ mcdContainer Section ------------*/
+
+.mcdContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+}
+
+.numberTitle{
+    font-size: 2rem;
+    margin-bottom: .8rem;
+}
+
+.input{
+    width: 15rem;
+    height: 2rem;
+    margin-bottom: 2rem;
+
+    border: none;
+    border-radius: 3px;
+
+    text-align: center;
+    font-size: 1.1rem;
+    box-shadow: 0px 5px 10px -4px var(--vino);
+}
+
+.btn{
+    width: 15rem;
+    height: 2.5rem;
+
+    border-radius: 10px;
+    border: 0;
+    
+    background: var(--vino);
+    color: white;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+    background: var(--vinoOscuro);
+}
+
+.titleResult{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.printResult{
+    font-size: 3rem;
+    font-weight: bold;
+
+    height: 13rem;
+    width: 20rem;
+    background: white;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 10px -4px var(--vino);  
+}

@@ -52,8 +52,7 @@
 }
 
 .btn:hover{
-    width: 250px;
-    height: 40px;
+    transform: scale(1.1);
 
     background-color: var(--vinoOscuro);
 

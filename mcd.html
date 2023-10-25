@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./Styles/main.css  ">
     <link rel="stylesheet" href="./Styles/navGeneral.css">
     <link rel="stylesheet" href="./Styles/instrucciones.css">
+    <link rel="stylesheet" href="./Styles/mcd/mcd.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
 
@@ -39,6 +40,30 @@
             <ul class="instrucciones">
                 <li class="instruElement">- Escribe una función que encuentre el máximo común divisor (MCD) de dos números.</li>
             </ul>
+        </section>
+
+        <section class="whatIsMCD">
+            <h1 class="mcdQuestion">¿Qué es el máximo común divisor (MCD)?</h1>
+            <p class="mcdExplain">Es el mayor número entero que los divide sin dejar residuo.</p>
+        </section>
+
+        <section class="mcdContainer">
+            <div class="numbersContainer">
+                <div class="numbers">
+                    <h1 class="numberTitle">Numero 1</h1>
+                    <input type="number" name="number1" id="number1" class="input">
+                </div>
+                <div class="numbers">
+                    <h1 class="numberTitle">Numero 2</h1>
+                    <input type="number" name="number2" id="number2" class="input">
+                </div>
+                <button class="btn" id="btnMCD">Calcular MCD</button>
+            </div>
+            
+            <div class="resultContainer">
+                <h1 class="titleResult">Resultado:</h1>
+                <h2 class="printResult" id="resultMCD"></h2>
+            </div>
         </section>
 
     </main>
